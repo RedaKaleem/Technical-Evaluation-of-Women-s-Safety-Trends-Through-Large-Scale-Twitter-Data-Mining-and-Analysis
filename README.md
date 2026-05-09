@@ -54,6 +54,11 @@ The system extracts meaningful insights from unstructured textual data and evalu
 
 ---
 
+# Orange Workflow
+
+<img width="1375" height="604" alt="orange-workflow" src="https://github.com/user-attachments/assets/48c33e8c-d5f6-4541-abd6-efb94c5776e1" />
+
+---
 # Models Used
 
 | Model               | Purpose                         | Performance           |
@@ -128,15 +133,16 @@ The system extracts meaningful insights from unstructured textual data and evalu
 
 # Technologies Used
 
-| Technology       | Purpose                  |
-| ---------------- | ------------------------ |
-| Python           | Core Development         |
-| NLP              | Text Processing          |
-| Machine Learning | Sentiment Classification |
-| TF-IDF           | Feature Extraction       |
-| Pandas & NumPy   | Data Handling            |
-| Matplotlib       | Data Visualization       |
-| Scikit-learn     | ML Model Training        |
+| Technology              | Purpose                    |
+| ----------------        | ------------------------   |
+| Python                  | Core Development           |
+| NLP                     | Text Processing            |
+| Machine Learning        | Sentiment Classification   |
+| TF-IDF                  | Feature Extraction         |
+| Pandas & NumPy          | Data Handling              |
+| Matplotlib              | Data Visualization         |
+| Scikit-learn            | ML Model Training          |
+| Orange Data Mining Tool | Model training and analysis|
 
 ---
 
