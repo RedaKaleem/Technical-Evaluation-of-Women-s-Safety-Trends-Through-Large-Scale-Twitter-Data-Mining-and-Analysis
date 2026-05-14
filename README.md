@@ -179,7 +179,33 @@ visuals/poster.png
 
 ---
 
-## Results Dashboard
+## References
+1. Mustapha, W.N.A.W., et al.: Detection of harassment toward women in Twitter during pandemic based on machine learning. Int. J. Adv. Comput. Sci. Appl. 15(3) (2024)
+1. Albladi, A., Islam, M.: Sentiment analysis of Twitter data using NLP models. IEEE Access (2025)
+1. Patil, H., et al.: Quantitative sentiment analysis of women’s safety. J. Inf. Syst. (2025)
+1. Sablok, B., et al.: NLP models for sentiment analysis. IJRASET (2025)
+1. Rodríguez-Sánchez, F., et al.: Classification of sexism in social networks. IEEE Access (2020)
+1. Qi, Y., Shabrina, Z.: Sentiment analysis using Twitter data. Soc. Netw. Anal. Min. (2023)
+1. Wang, Y., et al.: Sentiment analysis of Twitter data. Appl. Sci. (2022)
+1. Basha, A., et al.: WomenSafe AI. AI Cyber Comput. Manag. (2022)
+1. Lokesh, U., et al.: Women safety analysis in Indian cities. (2019)
+1. Lagrari, F.E., ElKettani, Y.: BERT for sentiment analysis. Springer (2023)
+1. Qaisar, S.M.: Sentiment analysis using LSTM. (2020)
+1. Jahin, M.A., et al.: Hybrid transformer model. arXiv (2024)
+1. Kashid, S., et al.: Bi-RNN text classification. Springer (2022)
+1. F.-E. Lagrari and Y. ElKettani, ‘‘A comparative study of a new customizedBERT for sentiment analysis,’’ in Sentiment Analysis and Deep Learning.Berlin, Germany: Springer, 2023, pp. 315–322.
+1. S. M. Qaisar, ‘‘Sentiment analysis of IMDb movie reviews using longshort-term memory,’’ in Proc. 2nd Int. Conf. Comput. Inf. Sci. (ICCIS),Oct. 2020, pp. 1–4.
+1. M. A. Jahin, M. S. H. Shovon, M. F. Mridha, M. R. Islam, andY. Watanobe, ‘‘A hybrid transformer and attention based recurrent neuralnetwork for robust and interpretable sentiment analysis of tweets,’’ 2024,arXiv:2404.00297.
+1. S. Kashid, K. Kumar, P. Saini, A. Dhiman, and A. Negi, ‘‘Bi-RNN and bi-LSTM based text classification for Amazon reviews,’’ in Proc. Int. Conf.Deep Learn., Artif. Intell. Robot. Springer, 2022, pp. 62–72.
+1. S. Alipour, A. Galeazzi, E. Sangiorgio, M. Avalle, L. Bojic, M. Cinelli,and W. Quattrociocchi, ‘‘Cross-platform social dynamics: An analysis ofChatGPT and COVID-19 vaccine conversations,’’ Sci. Rep., vol. 14, no. 1,p. 2789, Feb. 2024.
+1. A. Amini, Y. E. Bayiz, A. Ram, R. Marculescu, and U. Topcu,‘‘News source credibility assessment: A Reddit case study,’’ 2024,arXiv:2402.10938.
+1. A. Sittar, D. Mladenić, and M. Grobelnik, ‘‘Profiling the barriers to thespreading of news using news headlines,’’ Frontiers Artif. Intell., vol. 6,Aug. 2023, Art. no. 1225213.
+1. M. Qorich and R. El Ouazzani, ‘‘Text sentiment classification ofAmazon reviews using word embeddings and convolutional neu-ral networks,’’ J. Supercomput., vol. 79, no. 10, pp. 11029–11054,Jul. 2023.VOLUME 13, 2025 30465A. Albladi et al.: Sentiment Analysis of Twitter Data Using NLP Models: A Comprehensive Review
+1. F. Nadi, H. Naghavipour, T. Mehmood, A. B. Azman,J. A. P. Nagantheran, K. S. K. Ting, N. M. I. B. N. Adnan,R. A. P. Sivarajan, S. A. P. Veerah, and R. F. Rahmat, ‘‘Sentimentanalysis using large language models: A case study of GPT-3.5,’’ in Proc.Int. Conf. Data Sci. Emerg. Technol. Springer, 2024, pp. 161–168.
+1. J. Jiang, X. Ren, and E. Ferrara, ‘‘Retweet-BERT: Political leaningdetection using language features and information diffusion on socialnetworks,’’ in Proc. Int. AAAI Conf. Web Social Media, vol. 17, Jun. 2023,pp. 459–469.
+1. Jonnala, N.S., et al.:Leveraging Hybrid Model for Accurate Sentiment Analysis of Twitter Data.Scientific Reports, 2025.
+1. Devlin, J., Chang, M.-W., Lee, K., Toutanova, K.:BERT: Pre-training of deep bidirectional transformers for language understanding.Proceedings of NAACL-HLT, pp. 4171–4186 (2019)
+1. Davidson, T., Warmsley, D., Macy, M., Weber, I.:Automated hate speech detection and the problem of offensive language.Proceedings of the International AAAI Conference on Web and Social Media (ICWSM), pp. 512–515 (2017)
 
 
 
