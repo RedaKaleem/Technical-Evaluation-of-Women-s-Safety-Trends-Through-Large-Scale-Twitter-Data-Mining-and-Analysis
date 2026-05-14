@@ -85,7 +85,7 @@ The system extracts meaningful insights from unstructured textual data and evalu
 | Qorich et al.  | CNN         | Binary sentiment classification                | Normalization, Lemmatization                | Balanced accuracy for straightforward sentiment tasks (Acc.:90%)
 | Nadi et al.    | GPT-3.5     | Real-time sentiment tracking                   | Tokenization, Noise Removal                 | Effective in capturing real-time public reactions (F1: 0.86)
 | Jiang et al.   | BERT + CNN  | Political sentiment analysis                   | Case Folding, Removal of Hashtags           | Reliable for sentiment in politically charged discourse (Acc.:96%)
-| Proposed System | Hybrid NLP pipeline with RoBERTa and classical models | Analyzes emotional tone of tweets to identify distress, urgency, fear, anger, and safety concerns. | Tokenization, stopword removal, stemming, normalization, hashtag handling, URL removal, and noise filtering techniaues | We move beyond static tweet analysis and propose a real-time, event-driven system that detects and responds to safety incidents using multi-
+| Proposed System | Hybrid NLP pipeline with RoBERTa and classical models | Analyzes emotional tone of tweets to identify distress, urgency, fear, anger, and safety concerns. | Tokenization, stopword removal, stemming, normalization, hashtag handling, URL removal, and noise filtering techniaues | Achieved high-accuracy sentiment classification and real-time women’s safety trend detection using NLP and Machine Learning techniques. Acc:92%
 ---
 
 # Results & Analysis
