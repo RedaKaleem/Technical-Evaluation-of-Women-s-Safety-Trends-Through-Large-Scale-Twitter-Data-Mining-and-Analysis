@@ -1,0 +1,44 @@
+{
+  "dataset_sha256": "4381a1c996d36a8d1b45e155c6e1e52754cd390def00dd1c1d2298558fbf4cc6",
+  "cleaned_rows": 15052,
+  "duplicate_entries": 9776,
+  "unique_texts": 5276,
+  "python": "3.12.4",
+  "sklearn": "1.7.0",
+  "pandas": "2.2.3",
+  "vaderSentiment": "3.3.2",
+  "runs": [
+    {
+      "deduplicated": false,
+      "tfidf_fit_before_split": true,
+      "train_rows": 12041,
+      "test_rows": 3011,
+      "accuracy": 0.9246097641979408,
+      "macro_f1": 0.9242565296566753
+    },
+    {
+      "deduplicated": false,
+      "tfidf_fit_before_split": false,
+      "train_rows": 12041,
+      "test_rows": 3011,
+      "accuracy": 0.9242776486217203,
+      "macro_f1": 0.9240860412355936
+    },
+    {
+      "deduplicated": true,
+      "tfidf_fit_before_split": true,
+      "train_rows": 4220,
+      "test_rows": 1056,
+      "accuracy": 0.7642045454545454,
+      "macro_f1": 0.7630818137640579
+    },
+    {
+      "deduplicated": true,
+      "tfidf_fit_before_split": false,
+      "train_rows": 4220,
+      "test_rows": 1056,
+      "accuracy": 0.7613636363636364,
+      "macro_f1": 0.7600710650565675
+    }
+  ]
+}
