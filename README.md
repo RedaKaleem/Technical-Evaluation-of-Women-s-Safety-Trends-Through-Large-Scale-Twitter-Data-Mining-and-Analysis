@@ -20,7 +20,30 @@ The committed training code uses classical models. It does not implement RoBERTa
 
 The targets are VADER-generated positive, negative and neutral labels, not human annotations of danger, harassment or unsafe experiences. Classification performance therefore measures agreement with VADER's labeling procedure. It does not establish the ability to assess women's safety or detect real-world emergencies.
 
-The repository's training functions generate metrics when run. This README does not present an independently reproduced accuracy or a de-duplication comparison without corresponding saved experiment records.
+## Reproduced duplicate sensitivity audit
+
+An audit run on 4 October 2026 used the committed CSV and existing cleaning function. It found **15,052 cleaned rows**, **9,776 duplicate entries beyond the first occurrence**, and **5,276 unique cleaned texts**. Duplicates here mean exact equality after cleaning, not a semantic near-duplicate or retweet-origin classification.
+
+| LinearSVC evaluation | All cleaned rows | One row per unique cleaned text |
+| --- | ---: | ---: |
+| Accuracy, original TF-IDF fitted before split | 92.46% | 76.42% |
+| Macro-F1, original TF-IDF fitted before split | 0.9243 | 0.7631 |
+| Accuracy, TF-IDF fitted only on training data | 92.43% | 76.14% |
+| Macro-F1, TF-IDF fitted only on training data | 0.9241 | 0.7601 |
+
+Both conditions use an 80/20 split with seed 42; LinearSVC also uses seed 42. De-duplication occurs before splitting, retaining the first cleaned-text occurrence. The baseline has 12,041 training and 3,011 test rows; the deduplicated condition has 4,220 training and 1,056 test rows.
+
+This comparison demonstrates sensitivity to duplicate handling. De-duplication changes training size, test composition and sample weighting, so the drop cannot be attributed solely to train/test leakage. Labels remain VADER-generated, not human ground truth. These are newly reproduced results, not a reconstruction of the original presentation environment.
+
+[Audit script](verify_duplicates.py) · [Machine-readable results, dataset SHA-256 and environment](duplicate_audit_results.json)
+
+To repeat the audit from the repository root after installing the dependencies:
+
+```bash
+python verify_duplicates.py
+```
+
+The recorded environment uses Python 3.12.4, scikit-learn 1.7.0, pandas 2.2.3 and vaderSentiment 3.3.2. Earlier figures of 92.7% and 77.0% are not reproduced by this run.
 
 ## Evaluation limitations
 
